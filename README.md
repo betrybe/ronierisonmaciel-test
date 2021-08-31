@@ -29,7 +29,7 @@ Lista de requisitos:
 
 ## Data de entrega
 
-  - Data de entrega para avaliação final do projeto: `01/MM/YYYY - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `01/09/2021 - 14:00h`.
 
 ---
 
