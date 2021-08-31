@@ -17,12 +17,12 @@ class CompleteReport(SimpleReport):
         return stock
 
     @classmethod
-    def generate(cls, inventory):
+    def generate(cls, invetory):
         report = (
-            f"{super().generate(inventory)}"
+            f"{super().generate(invetory)}"
             f"\nProdutos estocados por empresa: \n"
-            )
-        for company in cls.get_companies_stock(inventory):
+        )
+        for company in cls.get_companies_stock(invetory):
             stk = list(company.values())
-            report += f"- {stk[0]: {stk[1]}\n}"
+            report += f"- {stk[0]}: {stk[1]}\n"
         return report
